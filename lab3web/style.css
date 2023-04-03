@@ -1,0 +1,158 @@
+/* Keseluruhan desain styling */
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  background:hsl(0, 0%, 100%);
+  width: 45%;
+  text-align: center ;
+  padding-inline: 413px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.container .tambahBarang {
+  display: block;
+    text-decoration: none;
+    color: rgb(118, 2, 160);
+    margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #efe1f6;
+}
+
+table th {
+  font-weight: bold;
+  padding: 10px;
+  color: #efe1f6;
+  background-color: #b016ec;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+}
+
+table td {
+  padding: 20px;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #efe1f6;
+}
+
+img {
+  width: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btn-delete {
+  border: 1px solid #db5d59;
+  background: #db5d59 url("gambar/hapus.png") no-repeat 5px 4px;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.btn-ubah {
+  border: 1px solid #00b3a8;
+  background: #00b3a8 url("gambar/ubah.png") no-repeat 5px 4px;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  display: block;
+  background: rgb(39, 111, 220);;
+}
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+  background-color: #000000;
+}
+
+.content {
+  background-color: #efe1f6;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color:#827d82;
+
+  padding: 10px;
+  color: #eee;
+  border-radius: 2px;
+  font-family: "Raleway SemiBold", sans-serif;
+  margin-top: 2px ;
+}
+
+.tentang {
+  margin-top: 50px;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(right, #9b59b6, #3498db);
+  width: 650px;
+  padding: 70px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form {
+  padding: 20px;
+  background-color: #2a72ba;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  background: -webkit-linear-gradient(right, #3498db, #9b59b6);
+  border-radius: 21px;
+  border: none;
+  box-shadow: 0px 1px 8px #ffffff;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25px;
+  width: 153px;
+}
